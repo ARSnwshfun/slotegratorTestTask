@@ -56,7 +56,7 @@ slotegrator/
     │   ├── UserResponse.java
     │   ├── AutomationTaskCreateRequest.java   # record + фабрика testUser(index, timestamp)
     │   └── AutomationTaskGetOneRequest.java    # record { email }
-    ├── teststeps/                # пакет teststeps (папка на диске может отображаться как testSteps)
+    ├── teststeps/                # пакет testSteps
     │   └── AutomationTaskFlowSteps.java
     │                             # сценарные шаги с Allure.step(...)
     └── tests/
